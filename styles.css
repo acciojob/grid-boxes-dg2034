@@ -1,9 +1,8 @@
-/*  your css code here. If applicable */
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 92px;
+    grid-template-rows: repeat(5, 92px);
     gap: 5px;
 }
 
